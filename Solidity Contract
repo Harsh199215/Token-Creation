@@ -1,0 +1,26 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.26;
+
+
+contract Token {
+
+    string public _TokenName = "Bake";
+    string public _TokenAbbv = "BKE";
+    uint public _TotalSupply = 0;
+
+    mapping (address => uint) balance;
+  
+function mint(address _address , uint _amt) public {
+
+_TotalSupply += _amt;   
+balance[_address] += _amt;
+
+}
+ function burn(address _address , uint _amt) public {
+if (balance[_address]>=_amt){
+_TotalSupply -= _amt;   
+balance[_address] -= _amt;
+}
+} 
+
+}
