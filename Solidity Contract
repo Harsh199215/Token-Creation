@@ -8,7 +8,7 @@ contract Token {
     string public _TokenAbbv = "BKE";
     uint public _TotalSupply = 0;
 
-    mapping (address => uint) balance;
+    mapping (address => uint) public balance;
   
 function mint(address _address , uint _amt) public {
 
