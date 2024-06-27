@@ -36,6 +36,14 @@ _TotalSupply -= _amt;
 balance[_address] -= _amt;
 }
 ```
+## Execution 
+
+1. Move on to Remix ide site
+2. Paste the code
+3. Compile it
+4. Deploy through the deployer shown in the left bar
+5. Congratulations you have deployed your contract , it will shown as a pinned contract!
+
 ## About me
 
 Hi , My name is Harsh <br />
