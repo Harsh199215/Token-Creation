@@ -42,7 +42,7 @@ balance[_address] -= _amt;
 2. Paste the code
 3. Compile it
 4. Deploy through the deployer shown in the left bar
-5. Congratulations you have deployed your contract , it will shown as a pinned contract!
+5. Congratulations you have deployed your contract , it will be shown as a pinned contract!
 
 ## About me
 
